@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dosis/v16/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xMB.ttf) format('truetype');
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  height: 4vh;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5%;
+}
+header a {
+  text-decoration: none;
+  color: #A9A9A9;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  padding-left: 7%;
+}
+header nav {
+  width: 50%;
+}
+@media (max-width: 500px) {
+  header a {
+    padding-left: 3%;
+  }
+  header nav {
+    width: 80%;
+  }
+}
+.intro {
+  background-color: #FFDAB9;
+  padding: 5% 3%;
+  font-family: 'Quicksand', sans-serif;
+}
+@media (max-width: 500px) {
+  .intro {
+    padding: 2%;
+    margin: 1%;
+  }
+}
+.coder {
+  width: 60%;
+}
+@media (max-width: 500px) {
+  .coder {
+    width: 100%;
+  }
+}
+h1 {
+  font-size: 50px;
+}
+.name {
+  border: 1px dotted grey;
+  padding-bottom: 2%;
+}
+@media (max-width: 500px) {
+  .name {
+    text-align: center;
+  }
+}
+.intro-para {
+  margin-top: 3%;
+}
+@media (max-width: 500px) {
+  .intro-para {
+    text-align: center;
+  }
+}
+button {
+  background: #AFEEEE;
+  border: 1px dotted grey;
+  width: 18%;
+  padding: 1%;
+  border-radius: 8px;
+  margin-top: 3%;
+}
+@media (max-width: 500px) {
+  button {
+    width: 100%;
+  }
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+.bot-out {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+  margin-top: 2%;
+}
+@media (max-width: 500px) {
+  .bot-out {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+}
+.bot-in {
+  width: 50%;
+  font-family: 'Dosis', sans-serif;
+  padding: 1%;
+}
+@media (max-width: 500px) {
+  .bot-in {
+    width: 80%;
+    text-align: center;
+  }
+}
+li {
+  padding: 3%;
+  border: 1px dotted grey;
+}
+.history {
+  margin: 2%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+#work-history {
+  width: 100%;
+  border: 1px solid black;
+  padding: 8%;
+  margin: 2% 0;
+}
+#work-history td,
+#work-history th {
+  border: 1px dotted grey;
+  padding: 1%;
+  text-align: center;
+}
+#work-history td {
+  color: #A9A9A9;
+}
+footer {
+  background-color: grey;
+  text-align: center;
+  color: white;
+  padding: 2% 4% 4%;
+  margin: 0 -1%;
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  justify-content: center;
+}
