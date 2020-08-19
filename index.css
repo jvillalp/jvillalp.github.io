@@ -139,14 +139,16 @@ body {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xw.ttf)
+    format('truetype');
 }
 @font-face {
   font-family: 'Dosis';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/dosis/v16/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xMB.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/dosis/v16/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xMB.ttf)
+    format('truetype');
 }
 .container {
   max-width: 800px;
@@ -161,7 +163,7 @@ header {
 }
 header a {
   text-decoration: none;
-  color: #A9A9A9;
+  color: #a9a9a9;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   padding-left: 7%;
@@ -178,7 +180,7 @@ header nav {
   }
 }
 .intro {
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   padding: 5% 3%;
   font-family: 'Quicksand', sans-serif;
 }
@@ -217,7 +219,7 @@ h1 {
   }
 }
 button {
-  background: #AFEEEE;
+  background: #afeeee;
   border: 1px dotted grey;
   width: 18%;
   padding: 1%;
@@ -281,7 +283,7 @@ li {
   text-align: center;
 }
 #work-history td {
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 footer {
   background-color: grey;
